@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Course UI</title>
+    <link href="Module.css" rel="stylesheet" />
+
+    <style>
+        .video-container {
+          position: absolute;
+          top: 40%;
+          right: 5%;
+          margin: 20px;
+          width: 500px;
+          height: auto;
+        }
+            </style>
+            
+</head>
+<body>
+    <div class="module">
+        <div class="circle-progress">
+            <div class="percentage">27%</div>
+        </div>
+        <div class="text">2/8 compleated</div>
+        <h2>Module 2: Fire Safety and Prevention</h2>
+        <p>
+            Fire Hazards: Identify potential fire hazards in the
+            <br>workplace, such as electrical equipment, open flames,
+            <br>and chemical reactions.
+        </p>
+        <p>
+            Fire Extinguisher Training: Train learners on how to use
+            <br>a fire extinguisher correctly, including the PASS method
+            <br>(Pull, Aim, Squeeze, Sweep).
+        </p>
+        <p>
+             Procedures: Explain emergency procedures
+            <br>in case of a fire, such as evacuation routes, assembly
+            <br>points, and fire alarm systems.
+        </p>
+
+        <div class="video-container">
+            <video width="100%" controls>
+                <source src="/video2" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+        <div class="navigation">
+            <p>Module 3: Slip, Trip, and Fall Prevention</p>
+            <button href="#" id="nextPageBtn2" class="image-button" onclick="page2()">
+                <img src="arrow.png" alt="Button Image" width="40">
+            </button>
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+</body>
+</html>

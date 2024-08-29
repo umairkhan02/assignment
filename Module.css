@@ -1,0 +1,109 @@
+src/components/Module.css
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+    position: relative;
+}
+
+.module {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    font-size: medium;
+}
+
+.module h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.module p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: medium;
+}
+
+.circle-progress {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #b0e0e6; 
+    position: relative;
+    margin: 50px auto;
+    float: right;
+    right: 10%;
+  }
+  
+  .circle-progress::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  .circle-progress::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: clip-path 0.3s ease;
+  }
+  
+  .circle-progress .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+}
+
+.image-button {
+    background: none; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    margin-right: 10%;
+    padding: 10px 10px 20px 30px;
+}
+
+.image-button img {
+    width: 50px; 
+    height: auto; 
+}
+.video-js{
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 60%;      
+    right: 10%;      
+    transform: translateY(-50%); 
+    padding: 50px 0px 50px 0px;
+
+}
+.text {
+    margin-top: 13%;
+    position: relative;
+    float: right;
+    right: 2%;
+  }

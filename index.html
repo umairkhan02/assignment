@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Course UI</title>
+    <link href="/Module.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Aptos:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+    .video-container {
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        margin: 20px;
+        width: 500px;
+        height: auto;
+    }
+    </style>
+</head>
+<body>
+    <div class="module">
+        <div class="circle-progress">
+            <div class="percentage">2%</div>
+        </div>
+        <div class="text">1/8 completed</div>
+
+        <h2>Module 1: Personal Protective Equipment (PPE)</h2>
+        <p>
+            Importance of PPE: Explain the significance of PPE in 
+            <br>preventing injuries and illnesses in the workplace.
+        </p>
+        <p>
+            Types of PPE: Introduce various types of PPE, such 
+            <br>as hard hats, safety glasses, gloves, earplugs, 
+            <br>respirators, and steel-toed boots.
+        </p>
+        <p>
+            Proper Use and Maintenance: Demonstrate how to 
+            <br>properly use and maintain PPE, including inspection 
+            <br>procedures and storage guidelines.
+        </p>
+        <div class="video-container">
+            <video width="100%" controls>
+                <source src="/video1" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="navigation">
+            <p>Module 2: Fire Safety and Prevention</p>
+            <button id="nextPageBtn1" class="image-button" onclick="page1()">
+                <img src="/arrow.png" alt="Button Image" width="40">
+            </button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+</body>
+</html>

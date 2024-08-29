@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Course UI 2</title>
+    <link href="Module.css" rel="stylesheet" />
+
+    <style>
+        .video-container {
+          position: absolute;
+          top: 40%;
+          right: 5%;
+          margin: 20px;
+          width: 500px;
+          height: auto;
+        }
+            </style>
+
+</head>
+<body>
+    <div class="module">
+        <div class="circle-progress">
+            <div class="percentage">46%</div>
+        </div>
+        <div class="text">3/8 compleated</div>
+        <h2>Module 3: Slip, Trip, and Fall Prevention</h2>
+        <ul>
+        <p>Hazards: Identify potential hazards that can lead to slips,
+            <br>trips, and falls, such as wet floors, uneven surfaces, loose
+            <br>cords, and cluttered walkways.
+            </p>
+               
+                <p>
+                Prevention Measures: Explain prevention measures to prevent
+                <br>slips, trips, and falls, including:
+                <li>Cleaning up spills promptly </li>
+                <li>Using non-slip mats or signs on stairs </li>
+                <li>Securing cords and cables </li>
+                <li>Maintaining a clean and organized workspace </li>
+                <li>Wearing proper footwear </li>
+            </p>
+                <p>
+                Reporting Incidents:  Emphasize the importance of reporting
+                <br>incidents to supervisors or safety personnel.
+            </p>
+        </ul>
+        
+        <div class="video-container">
+            <video width="100%" controls>
+                <source src="/video2" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="navigation">
+            <p>Module 4: Confined Space Entry and Rescue:</p>
+            <button href="#" id="nextPageBtn3" class="image-button" onclick="page3()">
+                <img src="arrow.png" alt="Button Image" width="40">
+            </button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+</body>
+</html>
